@@ -1,0 +1,62 @@
+#submitAccomodation{
+    background-color: lightyellow;
+    
+}
+
+.noPadding{
+    margin:0px;
+}
+
+#reserveHtml{
+    background-color: white;
+}
+
+#innerSite{
+    height: 400px;    
+    width: 100%;
+}
+
+#centralContent{
+    background-color: lightgray;
+    height: 400px;
+}   
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:white;
+    font-weight: bold;    
+}
+
+
+
+#choiceMenu{
+    background-color: #0D5420;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+
+}
+
+#menuColumn{
+    padding: 0px;
+    font-size: 25px;    
+    color: white;
+    text-align: center;
+}
+
+
+
+.headerColumns{
+    padding: 0px;
+}
+
+.headerImages{
+    height : 250px;
+    width : 100%;
+    padding: 1px;
+}
+
+

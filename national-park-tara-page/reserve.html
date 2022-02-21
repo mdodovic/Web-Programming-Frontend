@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rezervacija</title>
+    <link rel='stylesheet' href='style.css'>
+    <script src="script.js"></script>
+</head>
+
+<body id="reserveHtml">
+    <center>
+        <h1 class="noPadding">Rezervacija smeštaja</h1>
+        <form name="reserve">
+            <table>
+                <tr>
+                    <td>Ime:</td>
+                    <td><input type="text" name="name" required></td>
+                </tr>
+                <tr>
+                    <td>Prezime:</td>
+                    <td><input type="text" name="surname" required></td>
+                </tr>
+                <tr>
+                    <td>Tip smeštaja:</td>
+                    <td>
+                        <center>
+                            <select name="accType" id="accType" required>
+                                <option value="hotel">Hotel</option>
+                                <option value="manison">Vila</option>
+                                <option value="villageHouse">Seoska kuća</option>
+                            </select>
+                        </center>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Broj noćenja:</td>
+                    <td>
+                        <center>
+                            <input type="radio" name="roomCount" value="3" required> 3
+                            <input type="radio" name="roomCount" value="5"> 5
+                            <input type="radio" name="roomCount" value="7"> 7
+                        </center>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Broj telefona:</td>
+                    <td><input type="text" name="phoneNumber" required></td>
+                </tr>
+
+            </table>
+            <center>
+                <input type="button" id="submitAccomodation" value="Pošalji" name="send" onclick="testAndRespond()">
+            </center>
+        </form>
+    </center>
+</body>
+
+</html>
